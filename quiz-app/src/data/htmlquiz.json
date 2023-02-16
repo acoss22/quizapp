@@ -7,25 +7,25 @@
         "question": "The following ...",
         "options:": [
           {
-            "optionNumber": "a",
+            "label": "a",
             "value": "for"
           },
           {
-            "optionNumber": "b",
+            "label": "b",
             "value": "href"
           },
           {
-            "optionNumber": "c",
+            "label": "c",
             "value": "download"
           },
           {
-            "optionNumber": "d",
+            "label": "d",
             "value": "ping"
           }
         ],
         "correctAnswers": [
           {
-            "optionNumber": "a",
+            "label": "a",
             "value": "for"
           }
         ]
