@@ -1,16 +1,23 @@
-import React from 'react';
-import data from './data/htmlquiz.json';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import { useEffect, useState } from "react";
+import Data from './data/htmlquiz.json';
+import "./App.css";
+
+const App = () => {
+
+ console.log(Data);
+  
 
 
-function App() {
   return (
     <div className="App">
-     QUIZ APP
+      QUIZ APP
      
+       <button>
+       {Data.quiz.name}
+        </button> 
+
     </div>
   );
-}
+};
 
 export default App;
