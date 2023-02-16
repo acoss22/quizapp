@@ -1,13 +1,33 @@
 {
-  "HTML": {
-    "question": {
-      "The following is NOT an attribute of the tag a:": {
-        "a": "for",
-        "b": "href",
-        "c": "download",
-        "d": "ping"
-      },
-      "correct": "a"
+    "quiz": {
+      "questions": [
+        {
+          "question": "The following ...",
+          "options:": [
+            {
+              "optionNumber": "a",
+              "value": "for"
+            },
+            {
+              "optionNumber": "b",
+              "value": "href"
+            },
+            {
+                "optionNumber": "c",
+                "value": "download"
+              },
+              {
+                "optionNumber": "d",
+                "value": "ping"
+              }
+          ],
+          "correctAnswers": [
+            {
+              "optionNumber": "a",
+              "value": "for"
+            }
+          ]
+        }
+      ]
     }
   }
-}
